@@ -90,7 +90,7 @@ include('db-config/config.php');
       $stmt->close(); 
       ?>
 
-`   <tr>
+   <tr>
       <form method="POST" action="">
         <td style="display: flex; justify-content: center; align-items: center; gap: 10px;">
           <button type="submit" name="add_doctor" style="background: none; border: none; cursor: pointer;">✅</button>
