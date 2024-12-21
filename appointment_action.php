@@ -22,7 +22,7 @@ if (!$stmt) {
 }
 
 
-mysqli_stmt_bind_param($stmt, "ssssssss", $firstName, $lastName, $dob, $complaint, $gendertrue, $phone, $city, $email);
+mysqli_stmt_bind_param($stmt, "sssssiss", $firstName, $lastName, $dob, $complaint, $gendertrue, $phone, $city, $email);
 
 if (!mysqli_stmt_execute($stmt)) {
     die("Error executing statement: " . mysqli_stmt_error($stmt));
