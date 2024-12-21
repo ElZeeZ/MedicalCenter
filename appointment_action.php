@@ -13,7 +13,7 @@ $phone = isset($_POST['phone']) ? htmlspecialchars($_POST['phone']) : '';
 $complaint = isset($_POST['complaint']) ? htmlspecialchars($_POST['complaint']) : '';
 
 
-$gendertrue = ($gender === 'Male') ? 0 : 1;
+$gendertrue = (strtolower($gender) === 'male') ? 1 : 0;
 
 
 $stmt = mysqli_prepare($con, "INSERT INTO patient (firstName, lastName, dateOfBirth, chiefComplaint, gender, phone, address, email) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
