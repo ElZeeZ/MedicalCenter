@@ -5,12 +5,7 @@
   font-family: Montserrat;
 }
 
-.transaction-t {
-  height: 50%;
-  width: 80.2%;
-  position: relative;
-  left: 300px;
-}
+
 
 tr:nth-child(odd) {
   background-color: rgb(228, 224, 242); 
@@ -28,12 +23,7 @@ table {
   position: absolute;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Montserrat;
-  background-color: var(--primary-color-light); 
-}
+
 
 .item {
   text-align: center;
