@@ -1,4 +1,3 @@
-/* Import and Variables */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
@@ -38,7 +37,7 @@ img {
   display: block;
 }
 
-/* Section styling */
+
 .section__container {
   max-width: var(--max-width);
   margin: auto;
@@ -52,14 +51,14 @@ img {
   color: var(--text-dark);
 }
 
-/* Header styling */
+
 header {
   background-color: white;
   padding: 1rem 0;
  
 }
 
-/* Navigation bar styling */
+
 .nav__container {
   padding: 0.5rem 1rem;
   display: flex;
@@ -98,7 +97,7 @@ header {
   color: var(--primary-color);
 }
 
-/* Job Application Section */
+
 
 .card__container{
     margin-top: 60px;

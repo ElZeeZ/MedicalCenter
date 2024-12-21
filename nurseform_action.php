@@ -2,7 +2,7 @@
 
 include('db-config/config.php');
 
-// Retrieve and sanitize form inputs
+
 $firstName = isset($_POST['firstName']) ? htmlspecialchars($_POST['firstName']) : '';
 $lastName = isset($_POST['lastName']) ? htmlspecialchars($_POST['lastName']) : '';
 $phone = isset($_POST['phone']) ? htmlspecialchars($_POST['phone']) : '';
@@ -14,7 +14,7 @@ if (!$stmt) {
     die("Error preparing statement: " . mysqli_error($con));
 }
 
-// Bind parameters, replacing gender with $gendertrue
+
 mysqli_stmt_bind_param($stmt, "ssis", $firstName, $lastName, $phone, $email);
 
 if (!mysqli_stmt_execute($stmt)) {
