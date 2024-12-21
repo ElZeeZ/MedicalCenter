@@ -192,5 +192,7 @@ Al-Riyad Bldg - 1st Floor</p>
     <a href="login.php">Log In</a>
   </div>
 </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ioni
   </body>
 </html>
