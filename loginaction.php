@@ -13,7 +13,7 @@ if ($username === 'admin' && $password === 'admin') {
     echo "<script>window.location.href='adminhome.php';</script>";
 } else {
    
-    echo "<script>alert('Invalid credentials. Please try again.');</script>";
+    echo "<script>alert('Invalid credentials.');</script>";
     echo "<script>window.location.href='login.php';</script>";
 }
 ?>
